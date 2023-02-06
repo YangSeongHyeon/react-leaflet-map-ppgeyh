@@ -10,9 +10,9 @@ const MyMap = ({
 
   useEffect(() => {
     const initialState = {
-      lng: 11,
-      lat: 49,
-      zoom: 4,
+      lng: 126.97844906350132,
+      lat: 37.56492306412759,
+      zoom: 18,
     };
 
     const leafletMap = map(mapContainer.current).setView(
